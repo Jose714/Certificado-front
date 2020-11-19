@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 217, 0, 0.829);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+form {
+  padding: 5;
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.button {
+  background-color: #1a6a54;
+  border: none;
+  color:#f1d924;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 2px;
+}
+
+.image {
+  padding-top: 0%;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.form-center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.listDiv {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.card-deck {
+  border: 1cm;
+  padding: 1%;
+}
+
+label {
+  padding-right: 5px;
+}
+
+.label-fin {
+  padding-left: 60px;
+}
+
+.label-di {
+  padding-left: 70px;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+    width: center;
+}
+
+.fecha-form
+{
+  display: inline-flex;
+  margin-left: 5%;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.datos-form
+{
+  padding-top: 20px;
+  display: inline-flex;
+  margin-left: 5%;
+  margin-right: auto;
+  text-align: left;
+  width: 100%;
+}
+
+.input-TD{
+  width: 70px;
+  height: 35px;
+}
+
+.start-input{
+  padding-left: 27px;
+}
+
+.input-doc
+{
+  height: 35px;
+}
+
+.form-fix{
+  width: 75%;
+}
+
+.searchBar{
+  width: 730px;
+}
+
+.filtBTN{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #f1d924;
+  background-color: #1a6a54;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #f1d924;
+  align-items: center;
+  justify-content: center;
+}
+
+.filtBTN:hover {background-color: #1a6a54}
+
+.filtBTN:active {
+  background-color:  #1a6a54;
+  box-shadow: 0 5px #ad9c18;
+  transform: translateY(4px);
+}
+
+.filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thead-green{
+
+  color: #f1d924;
+  background-color: #1a6a54;
+
+}
